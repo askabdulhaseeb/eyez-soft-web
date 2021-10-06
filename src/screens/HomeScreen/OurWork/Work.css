@@ -1,0 +1,14 @@
+
+.card{
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+}
+.moveArrow:hover{
+    animation-name : mymove;
+    animation-timing-function: ease;
+}
+@keyframes mymove {
+  from {transform: translateY(0px);}
+    to {transform: translateY(10px);}
+}
